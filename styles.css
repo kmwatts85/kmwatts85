@@ -1,0 +1,164 @@
+/* latin */
+
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotoslab/v22/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjo0oSmb2Rj.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  @font-face {
+    font-family: 'Beau Rivage';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/beaurivage/v1/UcCi3FIgIG2bH4mMNWJUllgwP5s.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  @font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/dosis/v25/HhyJU5sn9vOmLxNkIwRSjTVNWLEJBbMl2xME.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  .banner {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 10px;
+  }
+  
+  .banner p {
+    font-size: 25px;
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Dosis";
+  }
+  h2 {
+    font-family: "Roboto Slab";
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  .color-pane {
+    border: 3px solid black;
+    border-radius: 10px;
+     width: 33%;
+    height: 100px;
+    margin: 20px auto;
+    display: flex-inline;
+    text-align: center;
+    min-height: 100px;
+    align-items: center;
+  }
+  
+  .color-pane p {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .text-box {
+    display: block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 33%;
+    margin: 20px auto;
+  }
+  
+  .darkslategray-box {
+    background-color: darkslategray;
+    color: black;
+  }
+  
+  .lightcoral-box {
+    background-color: lightcoral;
+    color: black; 
+  }
+  
+  .lightsalmon-box {
+    background-color: lightsalmon;
+    color: black;
+  }
+  
+  .lightseagreen-box {
+    background-color: lightseagreen;
+    color: black;
+  }
+  
+  .font-name {
+    font-size: 30px;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .underline {
+    text-decoration: underline;
+  }
+  
+  .roboto-slab {
+    font-family: "Roboto Slab";
+    background-color: darkslategray;
+    color: lightcoral;
+  }
+  
+  .beau-rivage {
+    font-family: "Beau Rivage";
+    background-color: lightseagreen;
+    color: black;
+  }
+  
+  .dosis {
+    font-family: "Dosis";
+    background-color: lightcoral;
+    color: darkslategray;
+  }
+  
+  .element-style {
+    margin: 20px auto;
+    width: 33%;
+    display: block;
+   
+  }
+  
+  .heading {
+    background-color: darkslategray;
+    color: lightcoral;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: auto;
+  }
+  
+  .subheading {
+    background-color: lightseagreen;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: auto;
+  }
+  .paragraphs {
+    font-family: "Beau Rivage";
+    font-size: 20px;
+    background-color: lightcoral;
+    color: darkslategray;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: auto;
+  }
